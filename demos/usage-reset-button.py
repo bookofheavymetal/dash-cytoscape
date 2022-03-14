@@ -5,7 +5,7 @@ button attached to a callback.
 import dash
 from dash.dependencies import Input, Output
 import dash_cytoscape as cyto
-import dash_html_components as html
+from dash import html
 
 
 elements = [

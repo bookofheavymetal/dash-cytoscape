@@ -36,7 +36,7 @@ Create the following example inside an `app.py` file:
 ```python
 import dash
 import dash_cytoscape as cyto
-import dash_html_components as html
+from dash import html
 
 app = dash.Dash(__name__)
 app.layout = html.Div([
@@ -64,7 +64,7 @@ You can also add external layouts. Use the `cyto.load_extra_layouts()` function 
 ```python
 import dash
 import dash_cytoscape as cyto
-import dash_html_components as html
+from dash import html
 
 cyto.load_extra_layouts()
 

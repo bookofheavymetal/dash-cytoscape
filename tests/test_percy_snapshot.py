@@ -23,8 +23,8 @@ import sys
 import time
 import pytest
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import html
+from dash import dcc
 
 
 def create_app(dir_name):

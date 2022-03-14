@@ -4,7 +4,7 @@ Shows how to animate a graph using preset positions that are modified by a callb
 import dash
 from dash.dependencies import Input, Output
 import dash_cytoscape as cyto
-import dash_html_components as html
+from dash import html
 
 app = dash.Dash(__name__)
 

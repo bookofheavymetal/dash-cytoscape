@@ -5,7 +5,7 @@ import sys
 import dash
 from dash.dependencies import Input, Output
 import dash_cytoscape as cyto
-import dash_html_components as html
+from dash import html
 
 try:
     from Bio import Phylo
